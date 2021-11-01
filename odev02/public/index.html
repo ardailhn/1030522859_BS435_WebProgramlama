@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kediyi Bul</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="bundle.js"></script>
+    </head>
+    <body>
+        <h2>Kedi Bulmaca</h2>
+        <p id="info">Bu oyunda 3 kapalı kart içindeki kediyi bulman gerekmektedir. İlk tercihte Kedi kartını bulamaz isen 2. seçim hakkı tanınacaktır.</p>
+        <img id="img0" class="kart" src="img/kapak.png" onclick="showCard(0)">
+        <img id="img1" class="kart" src="img/kapak.png" onclick="showCard(1)">
+        <img id="img2" class="kart" src="img/kapak.png" onclick="showCard(2)">
+
+        <div class="mesaj">
+            <p id="kazandinId" style="display: none">Kazandın!!!</p>
+            <p id="yenildinId" style="display: none">Kaybettin :(</p>
+            <p id="alanId">Kedi kartını bulmak için kartın üstüne tıklamalısın.</p>
+        </div>
+    </body>
+</html>
