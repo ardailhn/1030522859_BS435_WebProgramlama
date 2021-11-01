@@ -1,1 +1,5 @@
-# 1030522859_BS435_WebProgramlama
+Öğrenci Numarası: 1030522859
+
+Öğrenci Adı: Arda İLHAN
+
+Ders Adı: BS435 Web Programlama
